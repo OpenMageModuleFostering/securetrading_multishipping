@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Securetrading_Multishipping</name>
-    <version>3.3.1</version>
+    <version>3.3.2</version>
     <stability>stable</stability>
     <license>GPL</license>
     <channel>community</channel>
@@ -12,9 +12,9 @@
 Also provides a set of public functions for determining if an order has related mulitshipping orders and for retrieving those orders.</description>
     <notes>Stable Release.</notes>
     <authors><author><name>Peter Barrow</name><user>PeteST</user><email>peter.barrow@securetrading.com</email></author></authors>
-    <date>2014-09-03</date>
-    <time>16:01:40</time>
-    <contents><target name="magelocal"><dir name="Securetrading"><dir name="Multishipping"><dir name="Block"><dir name="Adminhtml"><dir name="Sales"><dir name="Order"><dir name="View"><dir name="Tab"><file name="Multishipping.php" hash="bdcde73d105e1afc684814a54bd9eb2c"/></dir></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="ef44651a71c3d35f75964b79415f107e"/></dir><dir name="Model"><file name="Observer.php" hash="5989bc4d2295dbde37e3e894a0cf4295"/><dir name="Order"><dir name="Set"><file name="Factory.php" hash="de63f03f322675e48a2196562bb972da"/><file name="Orders.php" hash="9264019c42414d020991ff9c19269745"/></dir><file name="Set.php" hash="80e0c054905b3bebd460f2d0b8e29b1b"/></dir><dir name="Resource"><dir name="Order"><dir name="Set"><dir name="Orders"><file name="Collection.php" hash="23d7a1c73629c47987c930e090d9a0e4"/></dir><file name="Orders.php" hash="5dfff1685fec9695605eb28264c5cac4"/></dir><file name="Set.php" hash="5742796d47acf5342b17ad292a83e547"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="f2be7b4ca3ca438333a2c3297cfb3fa1"/></dir><dir name="sql"><dir name="securetrading_multishipping"><file name="install-1.0.0.php" hash="7e4fc168ecd7b19ffcc64084b7e70481"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="SecureTrading_Multishipping.xml" hash=""/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="securetrading_multishipping.xml" hash="361acf85ce986e990b40fbc0f3c2b929"/></dir></dir></dir></dir></target></contents>
+    <date>2014-09-09</date>
+    <time>12:52:59</time>
+    <contents><target name="magelocal"><dir name="Securetrading"><dir name="Multishipping"><dir name="Block"><dir name="Adminhtml"><dir name="Sales"><dir name="Order"><dir name="View"><dir name="Tab"><file name="Multishipping.php" hash="bdcde73d105e1afc684814a54bd9eb2c"/></dir></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="ef44651a71c3d35f75964b79415f107e"/></dir><dir name="Model"><file name="Observer.php" hash="5989bc4d2295dbde37e3e894a0cf4295"/><dir name="Order"><dir name="Set"><file name="Factory.php" hash="de63f03f322675e48a2196562bb972da"/><file name="Orders.php" hash="9264019c42414d020991ff9c19269745"/></dir><file name="Set.php" hash="80e0c054905b3bebd460f2d0b8e29b1b"/></dir><dir name="Resource"><dir name="Order"><dir name="Set"><dir name="Orders"><file name="Collection.php" hash="23d7a1c73629c47987c930e090d9a0e4"/></dir><file name="Orders.php" hash="5dfff1685fec9695605eb28264c5cac4"/></dir><file name="Set.php" hash="5742796d47acf5342b17ad292a83e547"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="f2be7b4ca3ca438333a2c3297cfb3fa1"/></dir><dir name="sql"><dir name="securetrading_multishipping"><file name="install-1.0.0.php" hash="7e4fc168ecd7b19ffcc64084b7e70481"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Securetrading_Multishipping.xml" hash="efa3f0c8c146aa898f835b6bcc196547"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="securetrading_multishipping.xml" hash="361acf85ce986e990b40fbc0f3c2b929"/></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.3.0</min><max>5.5.15</max></php></required></dependencies>
 </package>
