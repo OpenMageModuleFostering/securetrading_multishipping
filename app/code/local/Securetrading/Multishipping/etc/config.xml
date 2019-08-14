@@ -3,7 +3,7 @@
 <config>
 	<modules>
         <Securetrading_Multishipping>
-            <version>1.0.0</version>
+            <version>3.3.4</version>
         </Securetrading_Multishipping>
     </modules>
 	<adminhtml>
