@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<config>
-	<modules>
-		<Securetrading_Multishipping>
-			<active>true</active>
-			<codePool>local</codePool>
-		</Securetrading_Multishipping>
-	</modules>
-</config>
